@@ -126,6 +126,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
+# Privileged app permissions
+PRODUCT_COPY_FILES += \
+    device/google/crosshatch/privapp-permissions-crosshatch.xml:system/etc/permissions/privapp-permissions-crosshatch.xml
+
 # Display Calibration
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm \
