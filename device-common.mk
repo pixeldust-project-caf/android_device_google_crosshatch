@@ -126,6 +126,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
+# ModemService
+PRODUCT_COPY_FILES += \
+  device/google/crosshatch/whitelist_modemservice.xml:system/etc/sysconfig/whitelist_modemservice.xml
+
 # Privileged app permissions
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/privapp-permissions-crosshatch.xml:system/etc/permissions/privapp-permissions-crosshatch.xml
