@@ -118,6 +118,10 @@ PRODUCT_PACKAGES += \
  PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# EUICC
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml
+
 # whitelisted app
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
