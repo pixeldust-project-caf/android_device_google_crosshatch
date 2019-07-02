@@ -52,7 +52,7 @@
 #endif
 
 #ifndef WLAN_STATS_FILE
-#define WLAN_STATS_FILE "/d/wlan0/power_stats"
+#define WLAN_STATS_FILE "/d/wlan1/power_stats"
 #endif
 
 #ifndef EASEL_STATS_FILE
