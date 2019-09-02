@@ -130,6 +130,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   device/google/crosshatch/whitelist_modemservice.xml:system/etc/sysconfig/whitelist_modemservice.xml
 
+# VerizonService
+PRODUCT_COPY_FILES += \
+  device/google/crosshatch/whitelist_verizon.xml:system/etc/sysconfig/whitelist_verizon.xml
+
 # Privileged app permissions
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/privapp-permissions-crosshatch.xml:system/etc/permissions/privapp-permissions-crosshatch.xml
