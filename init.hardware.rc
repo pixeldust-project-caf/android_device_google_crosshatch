@@ -529,6 +529,9 @@ on boot
     # WLAN debug access
     chown system system /d/icnss/stats
 
+    # Start RIL daemon
+    start ril-daemon
+
 service init-radio-sh /vendor/bin/init.radio.sh
     class late_start
     user radio
